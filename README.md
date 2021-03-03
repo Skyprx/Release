@@ -4,10 +4,11 @@
 
 | Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance Start | End-of-life               |
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:             | :---:                     |
-| [10.x][] | **Maintenance**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | 2020-05-19        | April 2021                |
-| [12.x][] | **Active LTS**      | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-10-20        | April 2022                |
-| [14.x][] | **Current**         |             | 2020-04-21     | 2020-10-20       | 2021-10-19        | April 2023                |
-| 15.x     | **Pending**         |             | 2020-10-21     | -                | -                 | June 2021                 |
+| [10.x][] | **Maintenance**     | [Dubnium][] | 2018-04-24     | 2018-10-30       | 2020-05-19        | 2021-04-30                |
+| [12.x][] | **Maintenance**     | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-11-30        | 2022-04-30                |
+| [14.x][] | **Active LTS**      | [Fermium][] | 2020-04-21     | 2020-10-27       | 2021-10-19        | April 2023                |
+| 15.x     | **Current**         |             | 2020-10-20     | -                | 2021-04-01        | 2021-06-01                |
+| 16.x     | **Pending**         |             | 2021-04-20     | 2021-10-26       | 2022-10-18        | 2024-04-30                |
 
 Dates are subject to change.
 
@@ -142,6 +143,7 @@ the discretion of the Release working group.
 [Carbon]: https://nodejs.org/download/release/latest-carbon/
 [Dubnium]: https://nodejs.org/download/release/latest-dubnium/
 [Erbium]: https://nodejs.org/download/release/latest-erbium/
+[Fermium]: https://nodejs.org/download/release/latest-fermium/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
 [5.x]: https://nodejs.org/download/release/latest-v5.x/
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
@@ -162,13 +164,13 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/lts) -->
 
-- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@richardlau](https://github.com/richardlau) - Richard Lau
+- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 - [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
@@ -177,7 +179,6 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/backporters) -->
 
-- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
@@ -186,7 +187,7 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync end -->
 
-### Releasers team
+## Releasers team
 
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
@@ -194,13 +195,16 @@ and CITGM team members listed below.
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
+- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@richardlau](https://github.com/richardlau) - Richard Lau
+- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 - [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
 
-### CITGM team
+## CITGM team
 
 <!-- ncu-team-sync.team(nodejs/citgm) -->
 
@@ -215,9 +219,10 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync end -->
 
-### Emeritus
+## Emeritus
 
-#### LTS team
+### LTS team
+- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
@@ -226,18 +231,18 @@ and CITGM team members listed below.
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
-- [@sam-github](https://github.com/sam-githb) - Sam Roberts
+- [@sam-github](https://github.com/sam-github) - Sam Roberts
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
 - [@trevnorris](https://github.com/trevnorris) - Trevor Norris
 - [@yunong](https://github.com/yunong) - Yunong Xiao
 
-#### Releasers team
+### Releasers team
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
-#### CITGM team
+### CITGM team
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
